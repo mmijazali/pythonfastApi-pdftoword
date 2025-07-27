@@ -8,8 +8,8 @@ Original file is located at
 """
 
 # 📦 Step 1: Install required libraries
-!pip install pytesseract pdf2image python-docx Pillow --quiet
-!apt install tesseract-ocr poppler-utils -y
+# !pip install pytesseract pdf2image python-docx Pillow --quiet
+# !apt install tesseract-ocr poppler-utils -y
 
 from PIL import Image
 from pdf2image import convert_from_path
